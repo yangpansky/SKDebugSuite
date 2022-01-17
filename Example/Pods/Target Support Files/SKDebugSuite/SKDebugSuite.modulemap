@@ -1,0 +1,6 @@
+framework module SKDebugSuite {
+  umbrella header "SKDebugSuite-umbrella.h"
+
+  export *
+  module * { export * }
+}

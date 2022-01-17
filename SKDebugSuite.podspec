@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SKDebugSuite'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SKDebugSuite.'
+  s.summary          = 'iOS调试套件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+iOS开发调试工具套件.
                        DESC
 
   s.homepage         = 'https://github.com/yangpansky/SKDebugSuite'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
